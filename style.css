@@ -2,3 +2,58 @@ body{
     margin: 0px;
     font-family: 'Work Sans', sans-serif;
 }
+/* Navigation related style */
+.primary-style{
+    color: #3C354F;
+    font-size: 18px;
+    font-weight: 500;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2.38rem 15rem;
+}
+.nav-left{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.nav-left h1{
+    font-size: 2.81rem;
+    font-weight: 700;
+    color: #0B0223;
+}
+nav span{
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.nav-right{
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+}
+.nav-left img{
+    width: 86px;
+    height: 40px;
+}
+.youtube{
+    width: 34px;
+    height: 24px;
+    margin: 0px 24px 0px 16px;
+}
+.tiktok{
+    width: 24px;
+    height: 24px;
+}
+nav button{
+    padding: 17px 24px;
+    border-radius: 8px;
+    background: #0b02231a;
+    border: none;
+    display: flex;
+    align-items: center;
+}
