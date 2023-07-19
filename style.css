@@ -2,12 +2,21 @@ body{
     margin: 0px;
     font-family: 'Work Sans', sans-serif;
 }
-/* Navigation related style */
-.primary-style{
+/* Common style */
+.primary-text-style{
     color: #3C354F;
     font-size: 18px;
     font-weight: 500;
 }
+.primary-btn-style{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 21px 40px;
+    border: none;
+    border-radius: 48px;
+}
+/* Navigation related style */
 nav{
     display: flex;
     justify-content: space-between;
@@ -25,10 +34,7 @@ nav{
     color: #0B0223;
 }
 nav span{
-    background: linear-gradient(#FF42A5, #FF42A5);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
+    color:#FF42A5;
 }
 .nav-right{
     display: flex;
@@ -57,6 +63,51 @@ nav button{
     display: flex;
     align-items: center;
 }
+/* Bannar related style */
+.bannar-container{
+    display: flex;
+    align-items: center;
+    background-image: url('images/bg-img.png');
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.bannar-text{
+    width: 50%;  
+    padding-left: 15rem;
+}
+.bannar-text h2{
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 600;
+    margin: 0px;
+}
+.bannar-text h1{
+    font-size: 95px;
+    font-weight: 800;
+    background: linear-gradient(#F948B2, #8758F1);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    margin: 0px;
+}
+.bannar-text p{
+    font-size: 20px;
+}
+.bannar-img{
+    width: 50%;
+    margin-right: 15rem;
+}
+.bannar-img img{
+    width: 100%;
+    height: auto;
+}
+.btn-1{
+    background-color:  #FF42A5 ;
+}
+.btn-2{
+    background: #4EC5F7;
+}
+
 
 
 
@@ -78,6 +129,11 @@ nav button{
         margin-top: 20px;
     }
 
+    .bannar-container{
+        flex-direction: column-reverse;
+        margin: 0px;
+        padding: 0px;
+    }
 
 
 
