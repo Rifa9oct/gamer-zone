@@ -178,6 +178,59 @@ nav button{
     border: 1px solid #FF42A5;
     color: #FF42A5;
 }
+/* Footer related style */
+footer{
+    padding: 120px 0px;
+    background: #0B0223;
+}
+footer h1{
+    color: white;
+    font-size: 45px;
+    font-weight: 700;
+}
+.footer-img{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+footer ul{
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+}
+footer li{
+    list-style: none;
+}
+.social-icon{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    font-size: 40px;
+    color: white;
+}
+.first-ul{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 56px;
+}
+.last-ul,footer p{
+    color: #ffffff99;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 70px;
+}
+footer p{
+    text-align: center;
+    margin: 0px;
+    padding-top: 15px;
+}
+
 
 
 
@@ -259,6 +312,7 @@ nav button{
 .all-butn{
     display: none;
 }
+
 
 }
 
