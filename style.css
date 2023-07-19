@@ -109,8 +109,14 @@ nav button{
     background: #4EC5F7;
     margin: 0px;
 }
-/* Online Game section related style */
-.online-game h2{
+ /* Online Game section related style */
+ .online-game{
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    align-items: center;
+}
+.game-sec h2{
     text-align: center;
     color: #0B0223;
     font-size: 48px;
@@ -118,16 +124,50 @@ nav button{
     margin: 0px;
     padding-top: 120px;
 }
-.online-game h3{
+.game-sec h3{
     text-align: center;
     margin-bottom: 48px;
 }
-.online-game-img{
-    display: flex;
-    justify-content: space-between;
+.overlay-image{
+    position: relative;
 }
-
-
+.overlay-image img{
+    display: block;
+}
+.content{
+    width: 338px;
+    height: 392px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 16px;
+    border: 5px solid #FF42A5; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+}
+.content:hover{
+    opacity: 1;
+}
+.content h3{
+font-size: 20px;
+font-weight: 600;
+color: #FF42A5;
+}
+.play-icon{
+    font-size: 35px;
+    padding: 13px 3px 0px 10px;
+    text-align: center;
+    background-color: white;
+    height: 45px;
+    width: 46px;
+    border-radius: 55px; 
+    color: purple; 
+}
 /* Play Game section related style */
 .game-container{
     display: flex;
@@ -266,7 +306,7 @@ footer p{
 
 /* Responsive media query style */
 /* Mobile device */
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 576px) {
 /* Navigation bar */
     nav,.nav-right
     {
@@ -316,18 +356,14 @@ footer p{
         font-size: 15px;
     }
 /* Online Game section */
-    .online-game-img{
+    .online-game{       
         flex-direction: column;
     }
     .row{
         margin: 0px auto;
     }
-    .online-game h2{
-        font-size: 15px;
-    }
-    .online-game h2{
-        font-size: 30px;
-        margin: 0px;
+    .game-sec h3{
+        font-size: 15px;       
     }
 /* Play Game section */
     .game-container{
@@ -467,7 +503,7 @@ footer p{
         right: 400px;
     }
 /* Online Game section */
-    .online-game-img{
+    .online-game{
         flex-direction: column;
     }
     .row{
