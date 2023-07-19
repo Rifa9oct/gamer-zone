@@ -5,7 +5,7 @@ body{
 /* Common style */
 .primary-text-style{
     color: #3C354F;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 500;
 }
 .primary-btn-style{
@@ -14,7 +14,7 @@ body{
     font-weight: 600;
     padding: 21px 40px;
     border: none;
-    border-radius: 48px;
+    border-radius: 3rem;
 }
 /* Navigation related style */
 nav{
@@ -25,7 +25,7 @@ nav{
 }
 .nav-left{
     display: flex;
-    gap: 20px;
+    gap: 1.25rem;
     align-items: center;
 }
 .nav-left h1{
@@ -38,25 +38,25 @@ nav span{
 }
 .nav-right{
     display: flex;
-    gap: 32px;
+    gap: 2rem;
     justify-content: center;
     align-items: center;
 }
 .nav-left img{
-    width: 86px;
-    height: 40px;
+    width: 5.375rem;
+    height: 2.5rem;
 }
 .youtube{
-    width: 34px;
-    height: 24px;
+    width: 2.12;
+    height: 1.5rem;
     margin: 0px 24px 0px 16px;
 }
 .tiktok{
-    width: 24px;
-    height: 24px;
+    width: 1.5rem;
+    height: 1.5rem;
 }
 nav button{
-    padding: 17px 24px;
+    padding: 1rem 1.5rem;
     border-radius: 8px;
     background: #0b02231a;
     border: none;
@@ -66,18 +66,19 @@ nav button{
 /* Bannar related style */
 .bannar-container{
     display: flex;
+    justify-content: space-between;
     align-items: center;
     background-image: url('images/bg-img.png');
     background-repeat: no-repeat;
     background-position: left;
+    background-size: contain;
 }
-.bannar-text{
-    width: 50%;  
-    padding-left: 15rem;
+.bannar-text{   
+    padding: 9.25rem 0px 9.25rem 15rem;
 }
 .bannar-text h2{
     color: #0B0223;
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 600;
     margin: 0px;
 }
@@ -94,18 +95,19 @@ nav button{
     font-size: 20px;
 }
 .bannar-img{
-    width: 50%;
     margin-right: 15rem;
+    padding-top: 1.25rem;
 }
-.bannar-img img{
-    width: 100%;
-    height: auto;
+.bannar-text button{
+    margin-right: 24px;
+    margin-top: 41px;
 }
 .btn-1{
     background-color:  #FF42A5 ;
 }
 .btn-2{
     background: #4EC5F7;
+    margin: 0px;
 }
 
 
@@ -128,18 +130,29 @@ nav button{
     nav button{
         margin-top: 20px;
     }
-
+/* Bannar section */
     .bannar-container{
         flex-direction: column-reverse;
+        background-image: none;
+    }
+    .bannar-img{
         margin: 0px;
         padding: 0px;
+        margin-top: 5.625rem;
     }
-
-
-
-
-
-
+    .bannar-img img{
+        width: 100%;
+        height: 100%;
+        margin: 0px auto;
+    }
+    .bannar-text{
+        padding-left:0px;
+        background-image: url('images/bg-img.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin-top: 1.5rem;
+    }
 
 
     
@@ -156,10 +169,28 @@ nav button{
         justify-content: space-between;
         margin: 0px;
     }
-
-
-
-
-
-
+/* Bannar section */
+    .bannar-container{
+        flex-direction: column-reverse;
+        background-image: none;
+    }
+    .bannar-img{
+        margin: 0px;
+        padding: 0px;
+        margin-top: 5.625rem;
+    }
+    .bannar-img img{
+        width: 100%;
+        height: 100%;
+        margin: 0px auto;
+    }
+    .bannar-text{
+        padding: 9.25rem 6rem;
+        text-align: center;
+        background-image: url('images/bg-img.png');
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: cover;
+        margin-top: 1.5rem;
+    }
 }
