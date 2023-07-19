@@ -109,6 +109,24 @@ nav button{
     background: #4EC5F7;
     margin: 0px;
 }
+/* Online Game section related style */
+.online-game h2{
+    text-align: center;
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0px;
+    padding-top: 120px;
+}
+.online-game h3{
+    text-align: center;
+    margin-bottom: 48px;
+}
+.online-game-img{
+    display: flex;
+    justify-content: space-between;
+}
+
 /* Play Game section related style */
 .game-container{
     display: flex;
@@ -230,9 +248,12 @@ footer p{
     margin: 0px;
     padding-top: 15px;
 }
-
-
-
+.common-span{
+    background: linear-gradient( #F948B2, #8758F1);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
 
 /* Responsive media query style */
@@ -286,6 +307,20 @@ footer p{
         padding: 15px 30px;
         font-size: 15px;
     }
+/* Online Game section */
+    .online-game-img{
+        flex-direction: column;
+    }
+    .row{
+        margin: 0px auto;
+    }
+    .online-game h2{
+        font-size: 15px;
+    }
+    .online-game h2{
+        font-size: 30px;
+        margin: 0px;
+    }
 /* Play Game section */
     .game-container{
         flex-direction: column;
@@ -312,6 +347,8 @@ footer p{
 .all-butn{
     display: none;
 }
+/* Footer section */
+
 
 
 }
@@ -375,6 +412,13 @@ footer p{
     .mini-img{
         top: 350px;
         right: 400px;
+    }
+/* Online Game section */
+    .online-game-img{
+        flex-direction: column;
+    }
+    .row{
+        margin: 0px auto;
     }
 /* Button section */
 
