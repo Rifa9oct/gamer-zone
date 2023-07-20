@@ -176,12 +176,13 @@ color: #FF42A5;
     margin-top: 120px;
 }
 .game-title{
-    color: #0B0223;
+    text-align: right;
     font-size: 48px;
     font-weight: 700;
 }
 .game-rules{
     color: #534C64;
+    text-align: right;
     font-size: 18px;
     font-weight: 400;
 }
@@ -376,7 +377,7 @@ footer p{
     .img-1{
         width: 60%;
         height: auto;
-        margin-left: 100px;
+        margin-left: 115px;
         margin-top: 74px;
     }
     .img-2{
@@ -384,8 +385,8 @@ footer p{
         height: auto;
     }
     .mini-img{
-        top: 230px;
-        right: 70px;
+        top: 220px;
+        right: 30px;       
     }
 /* Button section */
 .butn-5{
