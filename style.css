@@ -186,7 +186,7 @@ color: #FF42A5;
     font-size: 18px;
     font-weight: 400;
 }
-.gane-description{
+.game-description{
     margin-left: 439px;
 }
 .game-img{
@@ -370,8 +370,13 @@ footer p{
     .game-container{
         flex-direction: column;
     }
-    .gane-description{
+    .game-title{
         text-align: center;
+    }
+    .game-rules{
+        text-align: center;
+    }
+    .game-description{
         margin-left: 0px;
     }
     .img-1{
@@ -486,9 +491,14 @@ footer p{
     .game-container{
         flex-direction: column;
     }
-    .gane-description{
-        text-align: center;
+    .game-description{
         margin-left: 0px;
+    }
+    .game-title{
+        text-align: center;
+    }
+    .game-rules{
+        text-align: center;
     }
     .img-1{
         width: 60%;
