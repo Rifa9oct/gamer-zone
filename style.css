@@ -174,6 +174,7 @@ color: #FF42A5;
     justify-content: space-between;
     align-items: center;
     margin-top: 120px;
+    margin-bottom: 150px;
 }
 .game-title{
     text-align: right;
@@ -201,21 +202,21 @@ color: #FF42A5;
 }
 /* Button section related style */
 .all-butn{
-    margin: 200px auto 130px 100px;
+    padding: 120px;
     display: grid;
     column-gap: 30px;
     row-gap: 40px;
     grid-template-columns: repeat(5,1fr);
-    justify-content: center;
-    align-items: center;
+    justify-items: center;
+    background: linear-gradient( #ff42a508 , #ff42a508);
 }
 .item{
     width: 300px;
 }
 .item-7{
-    width: 350px;
+    width: 330px;
 }
-.item-5{
+.item-5,.item-1,.item-3,.item-8,.item-9{
     width: 250px;
 }
 .all-butn button{
@@ -369,7 +370,7 @@ footer p{
 /* Play Game section */
     .game-container{
         flex-direction: column;
-        margin-bottom: 150px;
+        margin-bottom: 120px;
     }
     .game-title{
         text-align: center;
@@ -398,7 +399,7 @@ footer p{
 .all-butn{
     column-gap: 10px;
     grid-template-columns: repeat(3,1fr);
-    margin: 0px auto;
+    padding: 100px 0px;
 }
 .item{
     width: 100px;
@@ -422,7 +423,6 @@ footer p{
 
 /* Footer section */
     footer{
-    margin-top: 120px;
     padding: 80px 0px;
     }
     .first-ul{
@@ -497,7 +497,7 @@ footer p{
 /* Play Game section */
     .game-container{
         flex-direction: column;
-        margin-bottom: 150px;
+        margin-bottom: 100px;
     }
     .game-description{
         margin-left: 0px;
@@ -527,7 +527,7 @@ footer p{
 .all-butn{
     column-gap: 10px;
     grid-template-columns: repeat(3,1fr);
-    margin: 0px 0px 100px 50px;
+    padding: 100px 0px;
 } 
 .item{
     width: 220px;
